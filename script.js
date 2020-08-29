@@ -39,8 +39,14 @@ function validarFormulario(event) {
   } else {
     swal("¡Buena mi perro!", "¡Ahora vamos a la calculadora!", "success");
   }
-
-  setTimeout(function () {
-    window.location = "./calculadora.html";
-  }, 2000);
+  if (
+    !inputName.value == "" &&
+    !inputApellido.value == "" &&
+    !inputCorreo.value == "" &&
+    !inputTel.value == ""
+  ) {
+    setTimeout(function () {
+      window.location = "./calculadora.html";
+    }, 2000);
+  }
 }
