@@ -3,8 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.form {
+  width: 240px;
+  height: 400px;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px 20px;
+  background-color: rgb(230, 230, 230);
+}
+input {
+  width: 200px;
+  border: none;
+  height: 2em;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+span {
+  font-size: 12px;
+}
+
+label {
+  font-weight: 800;
+}
 
 .alert {
-  color: red;
+  border: 2px solid rgb(255, 181, 181);
   font-size: 12px;
+}
+
+#btn {
+  background-color: tomato;
 }

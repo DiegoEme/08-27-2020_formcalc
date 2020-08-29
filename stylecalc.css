@@ -18,7 +18,7 @@ input {
   text-align: center;
 }
 .calc {
-  border: 5px solid black;
+  border: 3px solid black;
   width: 300px;
   height: 160px;
   padding: 10px 5px;
@@ -26,6 +26,7 @@ input {
   margin-top: 100px;
   border-radius: 20px;
   background-color: blanchedalmond;
+  box-shadow: 5px 5px 10px black;
 }
 
 .screen {
@@ -44,7 +45,7 @@ input {
   text-align: center;
   display: inline-block;
   text-decoration: none;
-  background: rgba(161, 26, 26, 0.705);
+  background: rgba(48, 161, 26, 0.705);
 }
 .btns {
   display: flex;

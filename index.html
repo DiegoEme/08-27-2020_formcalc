@@ -7,7 +7,7 @@
     <title>Form</title>
   </head>
   <body>
-    <form action="" onsubmit="validarFormulario(event)">
+    <form class="form" onsubmit="validarFormulario(event)">
       <div>
         <label for="">Nombre</label>
         <input type="text" id="inputName" />
@@ -28,7 +28,7 @@
         <input type="number" id="inputTel" />
         <span id="telMensaje"></span>
       </div>
-      <input type="submit" value="Enviar" />
+      <input id="btn" type="submit" value="Enviar" />
     </form>
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
